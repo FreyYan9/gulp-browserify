@@ -1,0 +1,9 @@
+.text-center {
+    text-align: justify !important;
+}
+
+.text-center::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
